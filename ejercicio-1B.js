@@ -5,6 +5,11 @@ que indique si la compra recibe o no el descuento.*/
 
 let precioCompra = prompt("Ingresa el precio del articulo");
 let mayor100 = precioCompra >= 100000;
+if (mayor100 == !false){
+    alert ("Felicidades tienes un descuento del 50%")
+} else {
+    alert ("Lo siento no tienes descuento")
+}
 console.log("La compra tiene descuento: " + mayor100);
 
 
