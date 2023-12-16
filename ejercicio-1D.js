@@ -12,7 +12,7 @@ alert(`Su salario basico mensual es de: ${salarioMensual}`);
 
 // ii. Determinar si recibe o no subsidio de transportes. Un empleado recibe este subsidio cuando el salario mensual básico es menor o igual a $700.000 COP
 const subsidio = salarioMensual <= 700000;
-alert(`Resives subsidio de transporte: ${subsidio}`);
+alert(`Recibes subsidio de transporte: ${subsidio}`);
 
 // iii. Mostrar en consola el nombre del empleado, su salario básico mensual y si recibe o no subsidio de transporte.
 
